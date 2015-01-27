@@ -147,7 +147,10 @@ elixir(function(mix) {
 
 ```javascript
 elixir(function(mix) {
-    mix.version("css/all.css");
+    mix.version([
+        "css/all.css",
+        "js/all.js"
+    ]);
 });
 ```
 
